@@ -7,7 +7,7 @@ const API = 'https://jsonplaceholder.typicode.com';
 
 /* GET api listing. */
 router.get('/', (req, res) => {
-  res.send('api works');
+  res.send('api works from router');
 });
 
 // Get all posts
